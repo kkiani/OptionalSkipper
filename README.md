@@ -1,3 +1,3 @@
 # OptionalSkipper
 
-A description of this package.
+This package add ability to convert optional values to with respect to default values.

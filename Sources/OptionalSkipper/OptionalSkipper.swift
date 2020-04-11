@@ -1,3 +1,5 @@
-struct OptionalSkipper {
-    var text = "Hello, World!"
+public extension Optional {
+    func skipNil(defaultValue: Wrapped) -> Wrapped{
+        return self ?? defaultValue
+    }
 }
